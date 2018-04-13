@@ -1,2 +1,3 @@
-# meeting-notes
-Group meeting notes
+# DXL Meeting Notes
+
+Notes from DXL meetings
