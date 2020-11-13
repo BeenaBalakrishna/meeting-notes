@@ -1,10 +1,9 @@
-name:GitHub Action Automation
-
+name:GitHub Action Automation 
 on:
- push:
- pull requests:
-  branches:
-   - master
+  push:
+  pull requests:
+    branches:
+      - master
    
 task: 
  test:
