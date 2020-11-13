@@ -1,8 +1,8 @@
 name:GitHub Action Automation
 
 on:
+ push:
  pull requests:
- push: 
   branches:
    - master
    
