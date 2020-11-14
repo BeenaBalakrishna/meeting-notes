@@ -1,14 +1,14 @@
-name:GitHub Action Automation 
+name: GitHub Action Automation
 on:
   push:
-  pull requests:
+  pull_request:
     branches:
       - master
    
-task: 
+jobs: 
  test:
   name: Running GitHub Action Automation 
-  runs-on: 
+  runs-on: macos - latest
   
   steps: 
   - uses: actions/checkout@v1
